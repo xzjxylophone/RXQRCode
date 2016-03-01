@@ -12,6 +12,7 @@
 		586D08A21C859ECE002779B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586D08A11C859ECE002779B2 /* Assets.xcassets */; };
 		586D08AF1C859F1B002779B2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586D08AD1C859F1B002779B2 /* MainViewController.m */; };
 		586D08B01C859F1B002779B2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586D08AE1C859F1B002779B2 /* MainViewController.xib */; };
+		586D08B41C85AE8E002779B2 /* RXQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 586D08B31C85AE8E002779B2 /* RXQRCode.m */; };
 		7A6EFEBE82D45FB40AEFD694 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 314DBC67EA9F5DDA022F2871 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 		586D08AC1C859F1A002779B2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		586D08AD1C859F1B002779B2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		586D08AE1C859F1B002779B2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		586D08B21C85AE8E002779B2 /* RXQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXQRCode.h; sourceTree = "<group>"; };
+		586D08B31C85AE8E002779B2 /* RXQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXQRCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		586D08B11C859F55002779B2 /* RXQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				586D08B21C85AE8E002779B2 /* RXQRCode.h */,
+				586D08B31C85AE8E002779B2 /* RXQRCode.m */,
 			);
 			name = RXQRCode;
 			path = ../RXQRCode;
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				586D089A1C859ECE002779B2 /* AppDelegate.m in Sources */,
+				586D08B41C85AE8E002779B2 /* RXQRCode.m in Sources */,
 				586D08AF1C859F1B002779B2 /* MainViewController.m in Sources */,
 				586D08971C859ECE002779B2 /* main.m in Sources */,
 			);

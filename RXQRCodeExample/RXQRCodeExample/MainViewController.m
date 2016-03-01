@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-
+#import "RXQRCode.h"
 @interface MainViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    
+    imageView.image = [RXQRCode qrImageForString:@"ksfksdf" imageWidth:100];
+    
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {
